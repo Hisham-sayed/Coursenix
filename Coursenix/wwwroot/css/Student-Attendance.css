@@ -288,12 +288,3 @@ main {
 .save-btn:hover {
     background-color: #1b5e20;
 }
-
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-    color: #757575;
-    font-size: 0.9rem;
-} 
