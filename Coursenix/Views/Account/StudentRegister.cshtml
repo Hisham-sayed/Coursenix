@@ -17,7 +17,6 @@
             </p>
 
             <form asp-controller="Account" asp-action="Register" method="post">
-                <div asp-validation-summary="All" class="text-danger"></div>
                 <input type="hidden" asp-for="RoleType" value="Student" />
 
                 <div class="form-group">
@@ -54,8 +53,8 @@
                                 }, "Value", "Text"))">
                         </select>
                         <i class="fas fa-chevron-down"></i>
-                    </div>
                     <span asp-validation-for="Grade" class="error-message"></span>
+                    </div>
                 </div>
 
                 <div class="form-group password-group">
